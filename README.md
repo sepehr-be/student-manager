@@ -16,12 +16,12 @@ A simple student management system built with Go and Echo framework.
 
 ### 1. Get All Students
 - **Method:** GET
-- **Route:** `/get-all`
+- **Route:** `/students`
 - **Description:** Returns a list of all students.
 
 ### 2. Create New Student
 - **Method:** POST
-- **Route:** `/new-student`
+- **Route:** `/students`
 - **Body:**
 ```json
 {
@@ -40,7 +40,7 @@ A simple student management system built with Go and Echo framework.
 
 ### 3. Add Course to Student
 - **Method:** POST
-- **Route:** `/add-course/:id`
+- **Route:** `/students/course/:id`
 - **Body:**
 ```json
 {
@@ -51,17 +51,17 @@ A simple student management system built with Go and Echo framework.
 
 ### 4. Calculate Average Grade
 - **Method:** GET
-- **Route:** `/calculat-average`
+- **Route:** `/students/average`
 - **Description:** Returns the average grade of all students.
 
 ### 5. Get Highest Grade Student
 - **Method:** GET
-- **Route:** `/highest-student`
+- **Route:** `/students/highest`
 - **Description:** Returns the student with the highest grade.
 
 ### 6. Get Lowest Grade Student
 - **Method:** GET
-- **Route:** `/lowest-student`
+- **Route:** `/students/lowest`
 - **Description:** Returns the student with the lowest grade.
 
 ## Project Structure

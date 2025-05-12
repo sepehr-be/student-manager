@@ -3,9 +3,9 @@ package main
 import (
 	"student-app/config"
 	"student-app/delivery/server"
-	studenthandler "student-app/delivery/server/studentHandler"
+	"student-app/delivery/server/studenthandler"
 	"student-app/repository"
-	studentservice "student-app/service/studentService"
+	studentservice "student-app/service/studentservice"
 )
 
 

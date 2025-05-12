@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"student-app/config"
-	studenthandler "student-app/delivery/server/studentHandler"
+	studenthandler "student-app/delivery/server/studenthandler"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
